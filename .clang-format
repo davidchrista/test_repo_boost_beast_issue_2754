@@ -1,0 +1,14 @@
+---
+Language: Cpp
+BasedOnStyle: Microsoft
+ConstructorInitializerIndentWidth: 2
+ColumnLimit: 100
+IndentWidth: 2
+FixNamespaceComments: false
+BreakConstructorInitializers: BeforeComma
+AllowShortFunctionsOnASingleLine: InlineOnly
+AlwaysBreakTemplateDeclarations: Yes
+BreakBeforeBraces: Custom
+AllowShortCaseLabelsOnASingleLine: true
+BraceWrapping:
+  AfterCaseLabel: true

@@ -1,0 +1,62 @@
+build/
+
+# Ignore all build results -- anywhere
+GeneratedFiles/
+Debug/
+Debug_*/
+Debug_coverage/
+Release/
+Release_*/
+Release_coverage/
+lib/
+ipch/
+imports/*/
+**/doc/build/
+.opencppcov
+/cfg
+
+# Visual Studio user files -- anywhere
+*.vcxproj.user
+*.suo
+*.opensdf
+*.sdf
+*.bin
+
+# APS files: Binary version of the current resource script file; Temporary file
+# used by Visual Studio for quick loading.
+*.aps
+
+
+# Files that are result of builds
+*.pyc
+*.pro
+*.pro.user
+*.ninja
+.ninja_deps
+.ninja_log
+Makefile*
+*.ninja
+.ninja_*
+*.log
+
+# build
+build.cfg
+build.log
+
+# git
+tags
+
+.vs/
+.vscode/
+/all.VC.db
+/all.VC.VC.opendb
+/language
+
+venv
+/enc_temp_folder
+
+# deployed files to default path
+deploy/
+
+# generated documentation
+docs/
